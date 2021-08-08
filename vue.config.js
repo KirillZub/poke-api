@@ -1,3 +1,3 @@
 module.exports = {
-    publicPuth: '/pokemons-wiki'
+    publicPuth: '/KirillZub.github.io/'
 }
