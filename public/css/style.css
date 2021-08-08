@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("../fonts/Play-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Play;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.header {
+  background: url(../img/Header.jpg) top no-repeat;
+  height: 200px;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__columns {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin: 25px 30px 25px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 989px) {
+  .header__columns:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+}
+
+.header__logo img {
+  width: 300px;
+}
+
+@media (max-width: 859px) {
+  .header__logo img {
+    width: 0px;
+  }
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  white-space: nowrap;
+  height: 27px;
+}
+
+@media (max-width: 989px) {
+  .menu__list {
+    margin-top: 30px;
+  }
+}
+
+.menu__link {
+  color: #fff700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px;
+  font-size: 22px;
+}
+
+@media (min-width: 1199px) {
+  .menu__link:hover {
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+
+@media (max-width: 1199px) {
+  .menu__link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 989px) {
+  .menu__link {
+    padding: 0 15px;
+  }
+}
+
+.footer{
+margin-top: 80px;
+background-color: #1d1d1d;
+}
+
+.footer__content{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+} 
+
+.info{
+
+}
+
+.info-footer{
+color: #fff;
+margin: auto;
+}

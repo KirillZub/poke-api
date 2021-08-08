@@ -5,13 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>Pokemons-wiki</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <header class="header">
+      <div class="header__content">
+          <div class="header__columns">
+              <a href="" class="header__logo"><img src="img/logo.png" alt="Pokemon-Wiki"></a>
+          </div>
+          <div class="header__columns">
+              <div class="header__menu menu">
+                  <nav class="menu__body">
+                      <ul class="menu__list">
+                          <li><a href="" class="menu__link">Главная</a></li>
+                          <li><a href="" class="menu__link">О нас</a></li>
+                          <li><a href="" class="menu__link">Контакты</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <footer class="footer">
+      <div class="footer__content info">
+        <div class="info-footer">
+          <h1>ТЕСТОВОЕ ЗАДАНИЕ</h1>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
