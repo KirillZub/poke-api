@@ -1,3 +1,3 @@
 module.exports = {
-    publicPuth: '/KirillZub.github.io/'
+    publicPath: '/pokeapi/'
 }
